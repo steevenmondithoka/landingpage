@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CricZone - Your Cricket Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">CricZone</div>
+      <nav>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="https://www.cricbuzz.com/">Live Scores</a></li>
+          <li><a href="#">Teams</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Catch the Action Live</h1>
+      <p>Your ultimate source for live scores, match updates, and cricket news.</p>
+      <a href="#" class="cta-btn">Explore Matches</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 CricZone. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">YouTube</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("menuToggle").onclick = () => {
+      document.getElementById("navLinks").classList.toggle("active");
+    };
+  </script>
+</body>
+</html>
